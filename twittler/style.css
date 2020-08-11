@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+div#twittler {
+    display: flex;
+    justify-content: center;
+}
+
+div#twittler-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    width: 40%;
+    height: 100%;
+    left: 30%;
+}
+
+div#twittler-title {
+    text-align: center;
+    color: white;
+    width: 100%;
+    background-color: #91E0F4;
+    font-size: 50px;
+    margin-bottom: 60px;
+    box-shadow: 6px 6px 20px 5px #797d7e;
+    text-shadow: 3px 3px 3px black;
+}
+
+div#write-tweet {
+    width: 100%;
+    background-color: #F3E4E7;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-shadow: 6px 6px 20px 5px #797d7e;
+}
+
+div#timeline-tweet {
+    box-shadow: 6px 6px 20px 5px #797d7e;
+}
+
+div#update-tweet-bar {
+    width: 100%;
+    background-color: #B1AFCD;
+    padding: 10px;
+}
+
+div#tweet-list {
+    width: 100%;
+    background-color: #DAEFF5;
+    padding: 10px 20px 20px 20px;
+}
+
+div.tweet-text {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.comment {
+    width: 40%;
+    overflow: visible;
+}
+
+.tweet-button {
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.tweet-check-button {
+    background-color: #c966b3;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+.tweet-button:hover {opacity: 1}
+.tweet-check-button:hover {opacity: 1}
