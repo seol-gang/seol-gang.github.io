@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./style.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/style.css"/>
     <title>Twittler</title>
 </head>
 <body>
@@ -15,20 +15,22 @@
             <div id="write-tweet">
                 <div>
                     UserName<br>
-                    <input type="text" id="username" name="username"/>
+                    <input type="text" id="username" name="username" required/>
                 </div>
                 <div>
                     Comment<br>
-                    <textarea class="comment" id="comment" name="comment" rows="4" cols="80"></textarea>
+                    <textarea class="comment" id="comment" name="comment" rows="4" cols="80" required></textarea>
                 </div>
                 <button type="button" class="tweet-button">Tweet!</button>
             </div>
             <div id="timeline-tweet">
                 <div id="update-tweet-bar">
-                    <button type="button" class="tweet-check-button">check new tweet</button>
+                    <button type="button" class="tweet-func-button" id="tweet-clear-button">Clear tweet!</button>
+                    <button type="button" class="tweet-func-button" id="tweet-random-button">Random tweet!</button>
+                    <button type="button" class="tweet-func-button" id="tweet-before-filter">Before filter tweet!</button>
                 </div>
                 <div id="tweet-list">
-                    <div class="tweet-text">
+                    <!-- <div class="tweet-text">
                         <div>
                             <div class="name">ingiKim</div>
                             <div class="tweet-content">
@@ -87,10 +89,13 @@
                             2019-01-04 18:30:20
                         </div>
                     </div>
-                    <hr>
+                    <hr> -->
                 </div>
             </div>
         </div>
     </div>
+
+    <script src="src/data.js"></script>
+    <script src="src/script.js"></script>
 </body>
 </html>

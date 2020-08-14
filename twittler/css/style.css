@@ -27,6 +27,7 @@ div#twittler-title {
     margin-bottom: 60px;
     box-shadow: 6px 6px 20px 5px #797d7e;
     text-shadow: 3px 3px 3px black;
+    cursor:pointer;
 }
 
 div#write-tweet {
@@ -62,11 +63,17 @@ div.tweet-text {
 
 .name {
     font-weight: bold;
+    cursor: pointer;
 }
 
 .comment {
     width: 40%;
     overflow: visible;
+}
+
+.tweet-date {
+    text-align: right;
+    width: 30%;
 }
 
 .tweet-button {
@@ -84,7 +91,7 @@ div.tweet-text {
     cursor: pointer;
 }
 
-.tweet-check-button {
+.tweet-func-button {
     background-color: #c966b3;
     border: none;
     color: white;
@@ -100,4 +107,4 @@ div.tweet-text {
   }
 
 .tweet-button:hover {opacity: 1}
-.tweet-check-button:hover {opacity: 1}
+.tweet-func-button:hover {opacity: 1}
