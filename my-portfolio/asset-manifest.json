@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.2bc4fe3c.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.bd20d877.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.bd20d877.chunk.js.map",
+    "runtime-main.js": "/my-portfolio/static/js/runtime-main.384618a9.js",
+    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.384618a9.js.map",
+    "static/js/2.65959024.chunk.js": "/my-portfolio/static/js/2.65959024.chunk.js",
+    "static/js/2.65959024.chunk.js.map": "/my-portfolio/static/js/2.65959024.chunk.js.map",
+    "index.html": "/my-portfolio/index.html",
+    "precache-manifest.919f77400ea1c58bae31ae0940b46b40.js": "/my-portfolio/precache-manifest.919f77400ea1c58bae31ae0940b46b40.js",
+    "service-worker.js": "/my-portfolio/service-worker.js",
+    "static/css/main.2bc4fe3c.chunk.css.map": "/my-portfolio/static/css/main.2bc4fe3c.chunk.css.map",
+    "static/js/2.65959024.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.65959024.chunk.js.LICENSE.txt",
+    "static/media/aboutme.css": "/my-portfolio/static/media/background3.1552f430.jpg",
+    "static/media/mygit.css": "/my-portfolio/static/media/background4.94b20dff.jpg",
+    "static/media/c.svg": "/my-portfolio/static/media/c.19f269b0.svg",
+    "static/media/close.svg": "/my-portfolio/static/media/close.3bbe74fb.svg",
+    "static/media/cpp.svg": "/my-portfolio/static/media/cpp.018e54b5.svg",
+    "static/media/csharp.svg": "/my-portfolio/static/media/csharp.c6961b79.svg",
+    "static/media/go-old.svg": "/my-portfolio/static/media/go-old.2fde7ca6.svg",
+    "static/media/javascript.svg": "/my-portfolio/static/media/javascript.de79c8f1.svg",
+    "static/media/mongodb.svg": "/my-portfolio/static/media/mongodb.554c7d4b.svg",
+    "static/media/mysql.svg": "/my-portfolio/static/media/mysql.f80a91ba.svg",
+    "static/media/fonts.css": "/my-portfolio/static/media/notosanskr-thin-webfont.ba2a0b6f.woff",
+    "static/media/php.svg": "/my-portfolio/static/media/php.7b2fa463.svg",
+    "static/media/profile.jpg": "/my-portfolio/static/media/profile.ff0e0473.jpg",
+    "static/media/python.svg": "/my-portfolio/static/media/python.7eb80c46.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.384618a9.js",
+    "static/js/2.65959024.chunk.js",
+    "static/css/main.2bc4fe3c.chunk.css",
+    "static/js/main.bd20d877.chunk.js"
+  ]
+}
